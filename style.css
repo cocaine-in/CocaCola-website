@@ -109,7 +109,7 @@ html,body{
     background-color: blue;
     border-top-left-radius: 1000px;
     border-top-right-radius: 1000px;
-    background-image: url(img/coca-cola-led-signage.jpg);
+    background-image: url(coca-cola-led-signage.jpg);
     background-size: 450%;
     background-position: 30% 50%;
     filter: blur(3px);
