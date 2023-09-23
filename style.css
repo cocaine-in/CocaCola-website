@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: -85px;
+    
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+#nav h5{
+    font-size: 14px;
+    font-weight: 600px;
+    text-transform: capitalize;
+}
+#nav-prt2{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#nav img{
+    width: 120px;
+}
+#line{
+    width: 60px;
+    height: 1px;
+    background-color: red;
+}
+#content{
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#left{
+    width: 38%;
+    height: 100%;
+    padding: 150px 100px;
+}
+#right{
+    width: 38%;
+    height: 100%;
+    padding: 200px 50px;
+}
+#center{
+    width: 25%;
+    height: 100%;
+    padding-top: 70px;
+}
+#left h1{
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#left span{
+    color: red;
+    font-weight: 500;
+}
+#left p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 21px;
+}
+#left button{
+    background-color: rgba(255, 0, 0, 0.927);
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+#left button i{
+    margin-right: 10px;
+}
+#center-bg{
+    width: 100%;
+    height: 96%;
+    background-color: blue;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(img/coca-cola-led-signage.jpg);
+    background-size: 450%;
+    background-position: 30% 50%;
+    filter: blur(3px);
+}
+#content>img{
+    height: 100%;
+    position: absolute;
+    margin-left: 34%;
+}
+#right-elems{
+    padding: 50px;
+}
+#elem-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid white;
+    opacity: 0.6;
+}
+#elem-1 h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+#elem-1 i{
+    font-size: 24px;
+}
+#elem-2 h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#elem-2 p{
+    font-size: 12px;
+    width: 70%;
+    opacity: 0.6;
+}
